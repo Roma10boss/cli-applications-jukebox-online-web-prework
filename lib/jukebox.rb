@@ -36,7 +36,9 @@ def play(songs)
   puts "Please enter a song name or number:"
    num = number.gets.strip
    if num = array[0] 
-     puts "playin the song " + array[0]
+     puts "playin the song " + array[1] 
+     elsif num = array[0] 
+     puts "playin the song " + array[1]
      
      
  end
