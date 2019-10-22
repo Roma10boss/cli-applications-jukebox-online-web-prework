@@ -33,7 +33,11 @@ end
 array
 end
 def play(songs)
-  puts 
+  puts "Please enter a song name or number:"
+   num = number.gets.strip
+ end
+ puts play(num)
+ 
   
   
   
