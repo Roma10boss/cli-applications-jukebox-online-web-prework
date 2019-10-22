@@ -65,7 +65,29 @@ def play(songs)
  end
  
  def run 
-   print 
+   print "Please enter a command:"
+   command_input = gets.chomp
+   if 
+     command_input === 'exit'
+     exit_jukebox
+   elsif 
+   command_input === 'list'
+   list(songs)
+   run(songs)
+   elsif 
+   command_input === 'play'
+   play(songs)
+   run(songs)
+   elsif 
+   command_input === 'help'
+   help
+   run(songs)
+   
+ else 
+   puts "enter a valid input"
+   run(songs)
+ end
+ run(songs)
   
   
   
