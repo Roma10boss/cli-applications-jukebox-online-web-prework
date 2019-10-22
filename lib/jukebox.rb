@@ -57,9 +57,9 @@ def play(songs)
      puts "playin the song " + array[9]
      
    else 
-     puts 
+     puts "Invalid input, please try again"
  end
- puts play(num)
+ 
  
   
   
